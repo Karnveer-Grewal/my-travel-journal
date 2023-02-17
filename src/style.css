@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+main {
+  padding: 60px 40px;
+}
+
+/* Nav Styling */
+
+.nav--container {
+  background-color: #f55a5a;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 3px 15px;
+  height: 55px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.nav--title {
+  font-size: 14px;
+  font-weight: lighter;
+  margin-left: 10px;
+  margin-right: auto;
+  align-self: center;
+}
+
+.nav--subtitle {
+  font-weight: lighter;
+  font-size: 10px;
+}
+
+.nav--img {
+  width: 25px;
+}
+
+/* Travel Item Styling */
+
+.travel--item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.travel--img {
+  width: 135px;
+  height: 200px;
+}
+
+.travel--info {
+  margin-left: 15px;
+}
+
+.travel--info > h1 {
+  margin: 0;
+  color: #2b283a;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.travel--dates {
+  font-weight: bolder;
+  font-size: 11px;
+  margin-bottom: 0px;
+}
+
+.travel--desc {
+  margin-top: 10px;
+  font-size: 11px;
+}
+
+/* Travel Info Styling */
+.info-head {
+  display: flex;
+  align-items: center;
+}
+
+.info-head > p {
+  color: #2b283a;
+  font-size: 11px;
+  letter-spacing: 3px;
+  margin-left: 5px;
+  margin-bottom: 9px;
+}
+
+.info-head > a {
+  font-size: 11px;
+  color: #918e9b;
+  margin-left: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav--title {
+    font-size: 18px;
+  }
+
+  .nav--subtitle {
+    font-size: 13px;
+  }
+  .travel--info > h1 {
+    font-size: 30px;
+  }
+  .travel--desc {
+    font-size: 15px;
+  }
+
+  .travel--dates {
+    font-size: 15px;
+  }
+  .info-head > p {
+    font-size: 15px;
+    margin-bottom: 12px;
+  }
+
+  .info-head > a {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .nav--title {
+    font-size: 22px;
+  }
+
+  .nav--subtitle {
+    font-size: 16px;
+  }
+  .travel--info > h1 {
+    font-size: 35px;
+  }
+  .travel--desc {
+    font-size: 19px;
+  }
+
+  .travel--dates {
+    font-size: 19px;
+  }
+  .info-head > p {
+    font-size: 19px;
+    margin-bottom: 20px;
+  }
+
+  .info-head > a {
+    font-size: 19px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .nav--title {
+    font-size: 25px;
+  }
+
+  .nav--subtitle {
+    font-size: 19px;
+  }
+  .travel--info > h1 {
+    font-size: 38px;
+  }
+  .travel--desc {
+    font-size: 23px;
+  }
+
+  .travel--dates {
+    font-size: 20px;
+  }
+  .info-head > p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .info-head > a {
+    font-size: 20px;
+  }
+}
